@@ -1,0 +1,14 @@
+Task:
+{'item': 'laptop', 'discount': 10, 'tax': 18}
+
+--- REASONING-ONLY BASELINE ---
+Estimated answer: 1062.0
+Tool calls: 0
+Time: 4.9425 seconds
+Reasoning note: Assumed a typical laptop price of $1000; after 10% discount the price is $900, then adding 18% tax (900 * 1.18) yields $1062.
+
+Expected tool-backed answer:
+849.6
+
+Correct:
+False
