@@ -1,0 +1,12 @@
+Task:
+{'item': 'laptop', 'discount': 10, 'tax': 18}
+
+Asking reasoning brain to create a plan...
+
+Generated plan:
+1. get_price -> ['laptop']
+2. apply_discount -> ['$prev', 10]
+3. add_tax -> ['$prev', 18]
+
+Planning complete.
+No pricing tools were executed.

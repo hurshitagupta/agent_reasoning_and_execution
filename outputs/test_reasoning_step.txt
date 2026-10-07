@@ -1,0 +1,10 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.13, pytest-9.1.1, pluggy-1.6.0
+rootdir: C:\Users\Hurshita Gupta\OneDrive\Desktop\reasoning_and_execution
+configfile: pyproject.toml
+plugins: anyio-4.15.1
+collected 6 items
+
+tests\test_reasoning_step.py ......                                      [100%]
+
+============================== 6 passed in 5.69s ==============================
