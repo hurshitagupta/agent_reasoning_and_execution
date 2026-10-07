@@ -5,6 +5,6 @@ configfile: pyproject.toml
 plugins: anyio-4.15.1
 collected 6 items
 
-tests\test_reasoning_step.py ......                                      [100%]
+tests\test_executor.py ......                                            [100%]
 
-============================== 6 passed in 1.51s ==============================
+============================== 6 passed in 1.28s ==============================
