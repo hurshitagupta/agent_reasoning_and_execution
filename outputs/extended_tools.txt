@@ -1,0 +1,12 @@
+Step 1: executing get_price('mouse',)
+Step 1 result: 20.0
+Step 2: executing apply_discount(20.0, 10)
+Step 2 result: 18.0
+Step 3: executing add_tax(18.0, 18)
+Step 3 result: 21.24
+Step 4: executing add_shipping(21.24, 5)
+Step 4 result: 26.24
+
+--- EXTENDED TOOL EXAMPLE ---
+Final price: 26.24
+Tool calls: 4
