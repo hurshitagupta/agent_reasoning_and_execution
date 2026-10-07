@@ -1,0 +1,80 @@
+[
+  {
+    "agent": "reasoning-only",
+    "task": {
+      "item": "laptop",
+      "discount": 10,
+      "tax": 18
+    },
+    "answer": 1062.0,
+    "expected": 849.6,
+    "correct": false,
+    "tool_calls": 0,
+    "seconds": 2.751633
+  },
+  {
+    "agent": "reason+execute",
+    "task": {
+      "item": "laptop",
+      "discount": 10,
+      "tax": 18
+    },
+    "answer": 849.6,
+    "expected": 849.6,
+    "correct": true,
+    "tool_calls": 3,
+    "seconds": 1.742074
+  },
+  {
+    "agent": "reasoning-only",
+    "task": {
+      "item": "mouse",
+      "discount": 5,
+      "tax": 10
+    },
+    "answer": 26.13,
+    "expected": 20.9,
+    "correct": false,
+    "tool_calls": 0,
+    "seconds": 3.828574
+  },
+  {
+    "agent": "reason+execute",
+    "task": {
+      "item": "mouse",
+      "discount": 5,
+      "tax": 10
+    },
+    "answer": 20.9,
+    "expected": 20.9,
+    "correct": true,
+    "tool_calls": 3,
+    "seconds": 3.078211
+  },
+  {
+    "agent": "reasoning-only",
+    "task": {
+      "item": "keyboard",
+      "discount": 20,
+      "tax": 5
+    },
+    "answer": 58.8,
+    "expected": 42.0,
+    "correct": false,
+    "tool_calls": 0,
+    "seconds": 1.382613
+  },
+  {
+    "agent": "reason+execute",
+    "task": {
+      "item": "keyboard",
+      "discount": 20,
+      "tax": 5
+    },
+    "answer": 42.0,
+    "expected": 42.0,
+    "correct": true,
+    "tool_calls": 3,
+    "seconds": 3.625055
+  }
+]

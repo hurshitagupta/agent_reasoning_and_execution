@@ -1,0 +1,29 @@
+Step 1: executing get_price('laptop',)
+Step 1 result: 800.0
+Step 2: executing apply_discount(800.0, 10)
+Step 2 result: 720.0
+Step 3: executing add_tax(720.0, 18)
+Step 3 result: 849.6
+Step 1: executing get_price('mouse',)
+Step 1 result: 20.0
+Step 2: executing apply_discount(20.0, 5)
+Step 2 result: 19.0
+Step 3: executing add_tax(19.0, 10)
+Step 3 result: 20.9
+Step 1: executing get_price('keyboard',)
+Step 1 result: 50.0
+Step 2: executing apply_discount(50.0, 20)
+Step 2 result: 40.0
+Step 3: executing add_tax(40.0, 5)
+Step 3 result: 42.0
+
+--- AGENT COMPARISON ---
+
+Agent             Item        Answer      Expected    Correct   Calls   Seconds   
+----------------------------------------------------------------------------------
+reasoning-only    laptop      1062.0      849.6       False     0       2.751633  
+reason+execute    laptop      849.6       849.6       True      3       1.742074  
+reasoning-only    mouse       26.13       20.9        False     0       3.828574  
+reason+execute    mouse       20.9        20.9        True      3       3.078211  
+reasoning-only    keyboard    58.8        42.0        False     0       1.382613  
+reason+execute    keyboard    42.0        42.0        True      3       3.625055  
